@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Deals - AAZZU | Exclusive Offers & Discounts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                  <img src="assets/logo.png" alt="logo">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="videos.html" class="nav-link">Videos</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="resources.html" class="nav-link">Resources</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="premium-deals.html" class="nav-link active">Premium Deals</a>
+                <a href="free-courses.html" class="nav-link">Free Courses</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="privacy-policy.html" class="nav-link active">Privacy Policy</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Premium Deals & Offers</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Exclusive discounts, limited-time offers, and special deals on premium tools and services.</p>
+        </div>
+    </section>
+
+    <!-- Deal of the Month -->
+    <section class="featured-deal">
+        <div class="container">
+            <div class="deal-banner" data-aos="zoom-in">
+                <div class="deal-badge">Deal of the Month</div>
+                <div class="deal-content">
+                    <div class="deal-info">
+                        <h2>Shopify Premium Plan</h2>
+                        <p class="deal-description">Get 3 months of Shopify Premium with exclusive features for your e-commerce business.</p>
+                        <div class="deal-pricing">
+                            <span class="original-price">$299</span>
+                            <span class="discount-price">$199</span>
+                            <span class="discount-percent">33% OFF</span>
+                        </div>
+                        <div class="deal-countdown">
+                            <h4>Offer ends in:</h4>
+                            <div class="countdown-timer" id="countdownTimer">
+                                <div class="countdown-item">
+                                    <span class="countdown-value" id="days">00</span>
+                                    <span class="countdown-label">Days</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-value" id="hours">00</span>
+                                    <span class="countdown-label">Hours</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-value" id="minutes">00</span>
+                                    <span class="countdown-label">Minutes</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-value" id="seconds">00</span>
+                                    <span class="countdown-label">Seconds</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://www.example.com/shopify-deal" class="btn btn-primary btn-large" target="_blank">
+                            <i class="fas fa-bolt"></i> Grab This Deal
+                        </a>
+                    </div>
+                    <div class="deal-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Shopify Premium Deal">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Deals Grid -->
+    <section class="deals-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Exclusive Premium Deals</h2>
+            <div class="deals-grid">
+                <!-- Deal 1 -->
+                <div class="deal-card" data-aos="fade-up">
+                    <div class="deal-header">
+                        <span class="deal-badge hot">HOT</span>
+                        <span class="deal-save">Save 40%</span>
+                    </div>
+                    <div class="deal-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Jasper AI Annual Plan</h3>
+                    <p class="deal-description">Complete AI writing assistant for content creation, marketing copy, and more.</p>
+                    <div class="deal-pricing">
+                        <span class="original-price">$588/year</span>
+                        <span class="discount-price">$348/year</span>
+                    </div>
+                    <ul class="deal-features">
+                        <li><i class="fas fa-check"></i> Unlimited words</li>
+                        <li><i class="fas fa-check"></i> 50+ templates</li>
+                        <li><i class="fas fa-check"></i> SEO mode</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <a href="https://www.example.com/jasper-deal" class="btn btn-primary" target="_blank">Get Deal</a>
+                </div>
+
+                <!-- Deal 2 -->
+                <div class="deal-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="deal-header">
+                        <span class="deal-badge popular">POPULAR</span>
+                        <span class="deal-save">Save 50%</span>
+                    </div>
+                    <div class="deal-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Canva Pro Lifetime</h3>
+                    <p class="deal-description">Professional design platform with premium features and unlimited assets.</p>
+                    <div class="deal-pricing">
+                        <span class="original-price">$120/year</span>
+                        <span class="discount-price">$60/year</span>
+                    </div>
+                    <ul class="deal-features">
+                        <li><i class="fas fa-check"></i> 100+ million premium images</li>
+                        <li><i class="fas fa-check"></i> Background remover</li>
+                        <li><i class="fas fa-check"></i> Magic Resize</li>
+                        <li><i class="fas fa-check"></i> Brand kits</li>
+                    </ul>
+                    <a href="https://www.example.com/canva-deal" class="btn btn-primary" target="_blank">Get Deal</a>
+                </div>
+
+                <!-- Deal 3 -->
+                <div class="deal-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="deal-header">
+                        <span class="deal-badge new">NEW</span>
+                        <span class="deal-save">Save 30%</span>
+                    </div>
+                    <div class="deal-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>SEMrush Pro Plan</h3>
+                    <p class="deal-description">All-in-one SEO toolkit for keyword research, ranking tracking, and competitor analysis.</p>
+                    <div class="deal-pricing">
+                        <span class="original-price">$119.95/month</span>
+                        <span class="discount-price">$83.95/month</span>
+                    </div>
+                    <ul class="deal-features">
+                        <li><i class="fas fa-check"></i> 500 reports per day</li>
+                        <li><i class="fas fa-check"></i> 10,000 results per report</li>
+                        <li><i class="fas fa-check"></i> Position tracking</li>
+                        <li><i class="fas fa-check"></i> Backlink analysis</li>
+                    </ul>
+                    <a href="https://www.example.com/semrush-deal" class="btn btn-primary" target="_blank">Get Deal</a>
+                </div>
+
+                <!-- Deal 4 -->
+                <div class="deal-card" data-aos="fade-up">
+                    <div class="deal-header">
+                        <span class="deal-badge limited">LIMITED</span>
+                        <span class="deal-save">Save 60%</span>
+                    </div>
+                    <div class="deal-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Adobe Creative Cloud</h3>
+                    <p class="deal-description">Complete suite of creative tools including Photoshop, Premiere Pro, and After Effects.</p>
+                    <div class="deal-pricing">
+                        <span class="original-price">$599/year</span>
+                        <span class="discount-price">$239/year</span>
+                    </div>
+                    <ul class="deal-features">
+                        <li><i class="fas fa-check"></i> 20+ creative apps</li>
+                        <li><i class="fas fa-check"></i> 100GB cloud storage</li>
+                        <li><i class="fas fa-check"></i> Adobe Fonts</li>
+                        <li><i class="fas fa-check"></i> Portfolio website</li>
+                    </ul>
+                    <a href="https://www.example.com/adobe-deal" class="btn btn-primary" target="_blank">Get Deal</a>
+                </div>
+
+                <!-- Deal 5 -->
+                <div class="deal-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="deal-header">
+                        <span class="deal-badge hot">HOT</span>
+                        <span class="deal-save">Save 45%</span>
+                    </div>
+                    <div class="deal-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>ConvertKit Creator Pro</h3>
+                    <p class="deal-description">Email marketing platform built specifically for creators and online businesses.</p>
+                    <div class="deal-pricing">
+                        <span class="original-price">$29/month</span>
+                        <span class="discount-price">$15.95/month</span>
+                    </div>
+                    <ul class="deal-features">
+                        <li><i class="fas fa-check"></i> Unlimited landing pages</li>
+                        <li><i class="fas fa-check"></i> Automation templates</li>
+                        <li><i class="fas fa-check"></i> Facebook custom audiences</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <a href="https://www.example.com/convertkit-deal" class="btn btn-primary" target="_blank">Get Deal</a>
+                </div>
+
+                <!-- Deal 6 -->
+                <div class="deal-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="deal-header">
+                        <span class="deal-badge popular">POPULAR</span>
+                        <span class="deal-save">Save 35%</span>
+                    </div>
+                    <div class="deal-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Oberlo Premium</h3>
+                    <p class="deal-description">Complete dropshipping solution with advanced features for Shopify stores.</p>
+                    <div class="deal-pricing">
+                        <span class="original-price">$29.90/month</span>
+                        <span class="discount-price">$19.40/month</span>
+                    </div>
+                    <ul class="deal-features">
+                        <li><i class="fas fa-check"></i> Unlimited products</li>
+                        <li><i class="fas fa-check"></i> Bulk orders</li>
+                        <li><i class="fas fa-check"></i> Variant mapping</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <a href="https://www.example.com/oberlo-deal" class="btn btn-primary" target="_blank">Get Deal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <section class="disclosure-section bg-light">
+        <div class="container">
+            <div class="disclosure-content" data-aos="fade-up">
+                <h3>Affiliate Disclosure</h3>
+                <p>Some of the links on this page are affiliate links, which means I may earn a commission if you make a purchase through these links. This comes at no additional cost to you and helps support the creation of free content and resources. I only recommend products and services that I genuinely use and believe will provide value to you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Want More Exclusive Deals?</h2>
+                <p>Subscribe to my newsletter to get notified about new deals, discounts, and special offers before anyone else.</p>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe to Deals</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+919576590698" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                  <img src="assets/logo.png" alt="logo">
+                    <p>Making AI tools, Shopify dropshipping, and online business accessible for everyone.</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="free-courses.html">Free Courses</a></li>
+                        <li><a href="premium-deals.html">Premium Deals</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AAZZU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Countdown timer for featured deal
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set the countdown date (30 days from now)
+            const countdownDate = new Date();
+            countdownDate.setDate(countdownDate.getDate() + 30);
+            
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const distance = countdownDate - now;
+                
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('days').textContent = days.toString().padStart(2, '0');
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+                
+                if (distance < 0) {
+                    clearInterval(countdownTimer);
+                    document.getElementById('countdownTimer').innerHTML = "Deal Expired";
+                }
+            }
+            
+            // Update countdown every second
+            updateCountdown();
+            const countdownTimer = setInterval(updateCountdown, 1000);
+        });
+    </script>
+</body>
+</html>
